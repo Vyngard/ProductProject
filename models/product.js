@@ -8,5 +8,5 @@ const productSchema = new mongoose.Schema({
   image: { type: String, required: true },
 });
 
-const Product = mongoose.model('Product', productSchema);
+const Product = mongoose.model('product', productSchema);
 module.exports = Product;
